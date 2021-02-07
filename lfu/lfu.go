@@ -10,6 +10,7 @@ func main() {
     c.Put(2, 1)
     c.Put(1, 1)
     fmt.Println(c.Get(2))
+    fmt.Println(c.Get())
     c.Put(4, 1)
     fmt.Println(c.Get(1))
     fmt.Println(c.Get(2))
